@@ -34,7 +34,7 @@ lavad keys show wallet -a
 lavad q bank balances $<lavad keys show wallet -a>
 
 
-#create validator :
+#Create Validator:
 
 
 lavad tx staking create-validator \
@@ -49,8 +49,6 @@ lavad tx staking create-validator \
 --fees=10000ulava \
 --from=wallet \
 -y
-
-
 #you can see the validator details :
 
 
