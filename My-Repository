@@ -1,7 +1,7 @@
 source <(curl -s https://raw.githubusercontent.com/nodejumper-org/cosmos-scripts/master/lava/lava-testnet-1/install.sh)
 
 
-#Create Wallet!
+#Create Wallet:
 
 
 lavad keys add wallet
@@ -16,7 +16,7 @@ cat $HOME/.lava/config/priv_validator_key.json
 #wait util the node is synced, should return FALSE
 
 
-#For check synce :
+#For check synce:
 
 
 lavad status 2>&1 | jq .SyncInfo.catching_up
