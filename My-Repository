@@ -1,9 +1,6 @@
 source <[curl -s https://raw.githubusercontent.com/nodejumper-org/cosmos-scripts/master/lava/lava-testnet-1/install.sh]
 
 
-#Create Wallet/ source
-
-
 lavad keys add wallet
 
 
