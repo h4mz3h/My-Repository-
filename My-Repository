@@ -13,9 +13,6 @@ cat $HOME/.lava/config/priv_validator_key.json
 #wait util the node is synced, should return FALSE
 
 
-#For check synce:
-
-
 lavad status 2>&1 | jq .SyncInfo.catching_up
 
 
