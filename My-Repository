@@ -37,7 +37,7 @@ lavad tx staking create-validator \
 --fees=10000ulava \
 --from=wallet \
 -y
-#you can see the validator details :
 
+#you can see the validator details :
 
 lavad q staking validator $(lavad keys show wallet --bech val -a)
