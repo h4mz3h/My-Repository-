@@ -40,4 +40,4 @@ lavad tx staking create-validator \
 
 #you can see the validator details :
 
-lavad q staking validator $(lavad keys show wallet --bech val -a)
+lavad q staking validator $(lavad keys show wallet --bech val -a)/
