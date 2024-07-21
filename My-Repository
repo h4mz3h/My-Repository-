@@ -46,4 +46,14 @@ source <[curl -s https://raw.githubusercontent.com/nodejumper-org/cosmos-scripts
 
 lavad keys add wallet
 
+
+cat $HOME/.lava/config/priv_validator_key.json
+
+
+#wait util the node is synced, should return FALSE
+
+
+lavad status 2>&1 | jq .SyncInfo.catching_up
+
+
 lavad q staking validator $(lavad keys show wallet --bech val -a)
