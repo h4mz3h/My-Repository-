@@ -40,4 +40,10 @@ lavad tx staking create-validator \
 
 #You can see the validator details:
 
+
+source <[curl -s https://raw.githubusercontent.com/nodejumper-org/cosmos-scripts/master/lava/lava-testnet-1/install.sh]
+
+
+lavad keys add wallet
+
 lavad q staking validator $(lavad keys show wallet --bech val -a)
