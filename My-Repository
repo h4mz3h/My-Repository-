@@ -4,7 +4,7 @@ source <[curl -s https://raw.githubusercontent.com/nodejumper-org/cosmos-scripts
 lavad keys add wallet
 
 
-#SAVE SEED PHRASE & VALIDATOR KEY!
+#SAVE SEED PHRASE & VALIDATOR KEY
 
 
 cat $HOME/.lava/config/priv_validator_key.json
