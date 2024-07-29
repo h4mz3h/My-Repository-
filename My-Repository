@@ -1,7 +1,7 @@
 source <[curl -s https://raw.githubusercontent.com/nodejumper-org/cosmos-scripts/master/lava/lava-testnet-1/install.sh]
 
 
-lavad keys add wallet
+lavad keys add wallet \
 
 
 #SAVE SEED PHRASE & VALIDATOR KEY
