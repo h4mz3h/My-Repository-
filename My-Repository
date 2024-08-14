@@ -7,7 +7,7 @@ lavad keys add wallet
 #SAVE SEED PHRASE & VALIDATOR KEY
 
 
-cat $HOME/.lava/config/priv_validator_key.json
+cat $HOME/.lava/config/priv_validator_key.json/
 
 
 #wait util the node is synced, should return FALSE
